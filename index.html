@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- reset first-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <title>TriviaGame</title> 
+    <meta charset="utf-8">
+    <!-- meta tags for responsive layout (to different media)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- css style for the layout -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+
+  <body style="background-image:url('assets/images/background.jpg')">
+        <div class="wrapper">
+
+                <!-- bootstrap div class for header-->
+            <div class="alert alert-warning" role="alert" style="font-size:50px;text-align:center;color:blue"><p>Totally Trivial Trivia</p></div>
+            
+            <button id="btnStartStop" class="btn-success">start Game</button>
+
+            
+            <div id="countDownTimer"></div>
+
+            <!--testStatus div to keep track of the questions-->
+            <div id="testStatus"></div>
+            
+            <!--test div to show the actual question from the list of questionsListArray in javascript file-->
+            <div id="test"></div>
+            <!-- <div id="result"> -->
+            <div id="result"> </div>
+            <div id="correct"></div>
+            <div id="incorrect"></div>
+            <div id="unanswered"></div>
+        
+        </div>   
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+
+
+
+
+  </body>
+</html>
